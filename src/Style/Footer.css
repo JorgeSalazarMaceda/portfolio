@@ -1,0 +1,37 @@
+footer {
+    width: 100vw;
+    max-height: 15em;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    /* Cambia la dirección del flex a columna */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    gap: 30px;
+    color: #a2b5cd;
+    background-color: rgb(41, 14, 130);
+    padding: 15px;
+    /* Agrega un espacio alrededor del contenido */
+    font-size: 16px;
+    text-align: center;
+}
+
+footer img {
+    width: 3em;
+    border-radius: 15px;
+}
+
+footer .top {
+    border-bottom: 2px solid #3a4f6a;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    /* Agrega un margen inferior para separar los elementos */
+}
+
+footer span {
+    margin-top: 10px;
+    /* Agrega un margen superior para separar los elementos */
+}
