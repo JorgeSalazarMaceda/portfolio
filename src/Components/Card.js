@@ -1,20 +1,15 @@
 import '../Style/Card.css'
+import { cardTexts } from './TextCardContent';
 
 const Card = () => {
 
     return (
         <div class="container">
-            <div class="card">
-                <h3 class="title">Card 1</h3>
-       
-            </div>
-            <div class="card">
-                <h3 class="title">Card 2</h3>
-            
-            </div>   <div class="card">
-                <h3 class="title">Card 3</h3>
-            
-            </div>
+            {cardTexts.map((text, index) =>
+                <div key={index} className='card'>
+                    <h3 className='title'>{text}</h3>
+                </div>
+            )}
         </div>
     )
 }
