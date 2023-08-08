@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Style/Footer.css'
 import logo from '../assets/Logo porfolio.png';
+import FooterUpperpart from './FooterUpperpart';
+import FooterBottompart from './FooterBottompart';
 
 const Footer = () => {
 
@@ -8,11 +10,8 @@ const Footer = () => {
         <div>
             <footer>
                 <img src={logo} alt="logo" />
-                <div className='top'>
-                    <h2>Contactos</h2>
-                </div>
-
-                <span> © 2023 All rights reserved</span>
+                <FooterUpperpart></FooterUpperpart>
+                <FooterBottompart></FooterBottompart>
             </footer>
         </div>
     )
