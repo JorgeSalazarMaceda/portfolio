@@ -1,4 +1,5 @@
 import '../Style/Footer.css'
+import Card from './Card';
 
 const FooterUpperpart = () => {
 
@@ -6,6 +7,7 @@ const FooterUpperpart = () => {
     return (
         <div className='top'>
             <h2>Contactos</h2>
+            <Card></Card>
         </div>
     )
 }
