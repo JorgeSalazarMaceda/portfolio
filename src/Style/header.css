@@ -1,5 +1,7 @@
 .centrado {
+    width: 100vw;
+    font-size: 16px;
     align-content: center;
-    background-color: black;
+    background-color: rgb(41, 14, 130);
     height: 10%;
 }

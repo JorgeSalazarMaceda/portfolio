@@ -1,0 +1,15 @@
+{
+    "supported_languages": ["es", "en"],
+    "language_strings": {
+        "es": {
+            "sobre_mi": "Sobre mí",
+            "proyectos": "Proyectos",
+            "contacto": "Contáctame"
+        },
+        "en": {
+            "sobre_mi": "About me",
+            "proyectos": "Projects",
+            "contacto": "Contact me"
+        }
+    }
+}
