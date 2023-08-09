@@ -4,12 +4,14 @@
         "es": {
             "sobre_mi": "Sobre mí",
             "proyectos": "Proyectos",
-            "contacto": "Contáctame"
+            "contacto": "Contáctame",
+            "idioma": "Idioma"
         },
         "en": {
             "sobre_mi": "About me",
             "proyectos": "Projects",
-            "contacto": "Contact me"
+            "contacto": "Contact me",
+            "idioma": "Language"
         }
     }
 }
