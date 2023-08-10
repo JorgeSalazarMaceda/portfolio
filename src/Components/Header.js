@@ -12,7 +12,7 @@ const Encabezado = (props) => {
                 <CustomButton >{translations.language_strings[props.settings.language]["sobre_mi"]}</CustomButton >
                 <CustomButton>{translations.language_strings[props.settings.language]["proyectos"]}</CustomButton>
                 <CustomButton>{translations.language_strings[props.settings.language]["contacto"]}</CustomButton>
-                <LanguageDropDown>{translations.language_strings[props.settings.language]["idioma"]}</LanguageDropDown>
+                <LanguageDropDown settings={props.settings}>{translations.language_strings[props.settings.language]["idioma"]}</LanguageDropDown>
             </header>
         </div>
     )
