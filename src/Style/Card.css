@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    top: 60px;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    display: flex;
+    align-items: flex-start;
+}
+
+.my-card {
+    display: flex;
+    height: 60px;
+    width: 3rem;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    position: relative;
+    left: 0px;
+}
+
+
+.my-card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.my-card:hover~.my-card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.title {
+    font-size: small;
+    color: white;
+    position: absolute;
+}

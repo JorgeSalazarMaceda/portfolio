@@ -4,7 +4,7 @@ import '../Style/header.css'
 import Footer from './FooterComponents/Footer'
 
 const ContentArea = () => {
-    
+
     const [language, setLanguage] = useState('es'); // Estado para almacenar el idioma
 
     // Función para cambiar el idioma

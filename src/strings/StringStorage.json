@@ -1,0 +1,23 @@
+{
+    "supported_languages": ["es", "en", "ja"],
+    "language_strings": {
+        "es": {
+            "sobre_mi": "Sobre mí",
+            "proyectos": "Proyectos",
+            "contacto": "Contáctame",
+            "idioma": "Idioma"
+        },
+        "en": {
+            "sobre_mi": "About",
+            "proyectos": "Projects",
+            "contacto": "Contact",
+            "idioma": "Language"
+        },
+        "ja": {
+            "sobre_mi": "私について",
+            "proyectos": "プロジェクト",
+            "contacto": "お問い合わせ",
+            "idioma": "言語"
+        }
+    }
+}
